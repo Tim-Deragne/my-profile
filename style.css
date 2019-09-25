@@ -1,0 +1,86 @@
+body {
+      background-color: #042f4b;
+      font-family: 'Yrsa', serif;
+      font-size: 22px;
+      line-height: 1.4;
+      color: #fff6da;
+      text-align: center;}
+
+h1 {
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;}
+
+h2 {
+    background-color: #ed1250;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    }
+
+a {
+  text-decoration: none;
+  color:#ed1250;
+  font-family: 'Poppins', sans-serif;
+  }
+  a:hover {
+           color:#fff6da;
+           transition-duration: 200ms;
+          }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {border-radius: 50%;}
+#title {padding: 30px;
+        margin: 100px 180px 50px 180px;
+        border-radius: 7px;
+        box-shadow: 0px 10px 30px rgba(0,0,10,0.1);
+        color:#042f4b;
+        background-color:#fff6da; }
+
+.interests {padding: 30px;
+            margin: 30px 180px;
+            border-radius: 7px;
+            box-shadow: 0px 10px 30px rgba(0,0,10,0.2);
+            background-color: #ed1250}
+
+#suggestions {font-weight: 100;
+              background-color: #042f4b;
+              color: #fbc99d }
+
+ul {list-style: none;
+    padding-left: 0px;
+    }
+li {display: inline;
+    padding:50px 30px;}
+
+.networks i {font-size: 50px;
+             color: #ed1250;}
+.networks i:hover {color : #fbc99d;
+                   transition-duration: 200ms;}
+
+.btn {background-color: #fbc99d;
+      padding:15px 30px;
+      border-radius: 7px;}
+.btn:hover {background-color:#ed1250;
+            transition-duration: 200ms;
+            }
+
+#introduction {margin-bottom: 40px;}
